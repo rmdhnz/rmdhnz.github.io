@@ -3,8 +3,8 @@ $('.page-scroll').on('click',function(e){
     var elemenTujuan = $(tujuan);
     
     //pindah scroll
-    $('html').animate({
+    $('html,body').animate({
         scrollTop:elemenTujuan.offset().top-50
-    },500);
+    },1000);
     e.preventDefault();
 });
