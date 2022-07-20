@@ -1,0 +1,65 @@
+html{
+    position: relative;
+}
+body{
+    margin-bottom: 100px;
+}
+.jumbotron .logo { 
+    height: 200px;
+    width: auto;
+    border: 4px solid #666;
+    box-shadow: 0 0 3px 5px rgba(0,0,0,.5);
+}
+hr{
+    width: 250px;
+    border-top: 5px solid #666;
+}
+section{
+    min-height: 600px;
+}
+.media{
+    background-color: rgb(211, 207, 207);
+}
+.media img{
+    width: 200px;
+    height: auto;
+    box-shadow: 0 30px 10px -20px rgba(0,0,0,.75);
+    transition: .3s;
+    border-radius: 50%;
+}
+.media img:hover{
+    box-shadow: 0 80px 10px -40px rgba(0,0,0,.15);
+    margin-top: 40px;
+}
+.media .github{
+    width: 200px;
+    height: auto;
+}
+.contact{
+    min-height: 800px;
+}
+.media .ig-instagram{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(200,200,200,.5);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    line-height: 200px;
+    font-family: 'Smooch', cursive;
+    font-size: 30px;
+    opacity: 0;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    background-color: #333;
+    padding-top: 30px;
+}
+footer p{
+    color: #aaa;
+    font-size: 1em;
+}
