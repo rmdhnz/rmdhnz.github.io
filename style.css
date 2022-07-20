@@ -32,6 +32,11 @@ section{
     transition: .3s;
     border-radius: 50%;
 }
+.media .fb{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
 .media img:hover{
     box-shadow: 0 80px 10px -40px rgba(0,0,0,.15);
     margin-top: 40px;
