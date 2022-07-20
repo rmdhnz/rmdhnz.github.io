@@ -14,6 +14,10 @@ hr{
     width: 250px;
     border-top: 5px solid #666;
 }
+.jumbotron .logo{
+    width: 200px;
+    height: 200px;
+}
 section{
     min-height: 600px;
 }
